@@ -9,19 +9,21 @@ body {
 }
 
 header {
-    background-color: #6200ea;
+    background-color: #0a070e;
     color: white;
     padding: 20px;
+    
 }
 
 /* Navigation Bar Styling */
 .navbar {
+    border: 2px solid white;
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #3700b3;
+    /* background-color: #392447; */
 }
 
 .navbar li {
@@ -39,7 +41,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #6200ea;
+    background-color: #29272c;
 }
 
 /* Main Section Styling */
@@ -48,8 +50,8 @@ main {
 }
 
 button {
-    background-color: #6200ea;
-    color: white;
+    background-color: #a5926a96;
+    color: rgb(17, 10, 10);
     border: none;
     padding: 10px 20px;
     margin: 20px;
@@ -59,12 +61,12 @@ button {
 }
 
 button:hover {
-    background-color: #3700b3;
+    background-color: #1c1a20;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #6200ea;
+    background-color: #0a070e;
     color: white;
     padding: 10px;
     position: fixed;

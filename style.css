@@ -9,18 +9,34 @@ body {
 }
 
 header {
-    background-color: #0a070e;
-    color: white;
+    /* background-image: url(images/back2.png); */
+
+
+    background-color: #a56949;
+    color: #110c0c;
     padding: 20px;
     
+}
+h1 {
+    font-size: 60px;
+  }
+  
+
+.logo {
+    position: relative;
+    
+    top: 10px; /*Distance from the top of the header*/
+    left: 20px; /* Distance from the left of the header */
+    height: 100px; /* Adjust height to resize the logo */
+    width: auto; /* Maintain aspect ratio */
 }
 
 /* Navigation Bar Styling */
 .navbar {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10;
     display: flex;
     justify-content: center;
     /* background-color: #392447; */
@@ -32,7 +48,7 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: #130b0a;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 15px;
@@ -41,12 +57,19 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #29272c;
+    background-color: #812118;
+    
+}
+.header h1, .header p {
+    position: relative;
+    z-index: 1; /* Keep text above the image */
 }
 
 /* Main Section Styling */
 main {
-    padding: 20px;
+    padding-bottom: 280px;
+    padding-top: 20px;
+    background-image: url(images/slide1.jpeg) ;
 }
 
 button {
@@ -54,22 +77,61 @@ button {
     color: rgb(17, 10, 10);
     border: none;
     padding: 10px 20px;
-    margin: 20px;
+    margin-top: 10px;
+    top: 1px;
+    position: relative;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    /* align-self: center; */
 }
 
 button:hover {
+    color: #fff;
     background-color: #1c1a20;
 }
 
 /* Footer Styling */
-footer {
+/* footer {
     background-color: #0a070e;
     color: white;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Space inside the footer */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Restrict maximum width */
+  }
+  
+  .footer-left, .footer-right {
+    display: flex;
+    align-items: center; /* Vertically center the images */
+    gap: 10px; /* Space between images */
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  img {
+    height: 40px; /* Adjust the image size */
+    width: auto;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

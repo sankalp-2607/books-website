@@ -73,8 +73,8 @@ main {
 }
 
 button {
-    background-color: #a5926a96;
-    color: rgb(17, 10, 10);
+    background-color: #000;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
@@ -129,6 +129,7 @@ footer {
   img {
     height: 40px; /* Adjust the image size */
     width: auto;
+    border-color: white;
   }
   
   p {
